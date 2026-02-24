@@ -96,7 +96,7 @@ Backend API responses
 Example:
 
 ![Docker ps](screenshots/docker-ps.png)
-![Frontend UI](screenshots/frontend.png)
+![Frontend UI](screenshots/frontend-ui.png)
 ![GitHub Actions](screenshots/github-actions.png)
 Nginx Reverse Proxy (Optional)
 
