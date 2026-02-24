@@ -17,7 +17,7 @@ npm install
 ng serve
 ```
 
-Runs on: http://localhost:8081
+Runs on: http://localhost:4200
 
 ## Docker Deployment
 
