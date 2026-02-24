@@ -5,7 +5,10 @@ mongoose.Promise = global.Promise;
 
 const db = {};
 db.mongoose = mongoose;
-db.url = dbConfig.url;
+
+// Use environment variable if available (for Docker)
+db.url = process.env.MONGO_URL || dbConfig.url;
+
 db.tutorials = require("./tutorial.model.js")(mongoose);
 
 module.exports = db;
