@@ -1,6 +1,3 @@
-1️⃣ Add Clear Step-By-Step Setup Section
-
-Add this clean format:
 
 ## Local Setup (Without Docker)
 
@@ -21,7 +18,7 @@ ng serve --port 8081
 ```
 
 Runs on: http://localhost:8081
-2️⃣ Add Docker Deployment Section (Clean Version)
+
 ## Docker Deployment
 
 Build and start containers:
@@ -42,7 +39,7 @@ Services:
 - Backend: http://localhost:3000
 - MongoDB: Port 27017
   
-3️⃣ Add CI/CD Explanation Section
+
 ## CI/CD Pipeline (GitHub Actions)
 
 The CI/CD pipeline automatically:
@@ -57,7 +54,7 @@ Workflow file:
 
 Triggered on:
 Push to main branch
-4️⃣ Add Nginx Section (Even if optional)
+
 ## Nginx Reverse Proxy
 
 Nginx can be configured to:
