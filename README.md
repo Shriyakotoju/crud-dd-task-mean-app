@@ -14,7 +14,7 @@ Runs on: http://localhost:3000
 ```bash
 cd frontend
 npm install
-ng serve --port 8081
+ng serve
 ```
 
 Runs on: http://localhost:8081
