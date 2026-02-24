@@ -64,7 +64,3 @@ Nginx can be configured to:
 - Expose application via port 80
 
 This enables production-style deployment.
-
-![CI/CD Success](screenshots/github-actions.png)
-![Docker Hub](screenshots/dockerhub.png)
-![App UI](screenshots/frontend-ui.png)
