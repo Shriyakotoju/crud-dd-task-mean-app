@@ -33,3 +33,6 @@ jobs:
 
     - name: Push frontend Docker image
       run: docker push ${{ secrets.DOCKER_USERNAME }}/frontend:latest
+
+    - name: Logout Docker
+      run: docker logout
